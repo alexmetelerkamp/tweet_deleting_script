@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 """ Deletes all tweets below a certain retweet threshold.
+    Forked from https://gist.github.com/chrisalbon/b9bd4a6309c9f5f5eeab41377f27a670
+    https://twitter.com/chrisalbon
 """
 
 import tweepy
@@ -58,4 +60,4 @@ def wipe(account_name=USER_NAME, favorite_threshold=100, days=62):
 
 # Run main function
 if __name__ == '__main__':
-    wipe(account_name='chrisalbon', favorite_threshold=100, days=62)
+    wipe(account_name='AlexMetelerkamp', favorite_threshold=100, days=62)
