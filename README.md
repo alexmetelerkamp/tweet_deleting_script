@@ -1,2 +1,2 @@
 # tweet_deleting_script
-Delete old tweets that didn't land
+Use this script to delete your tweets that didn't get enough love. Configurable by time period, and number of likes receieved.
